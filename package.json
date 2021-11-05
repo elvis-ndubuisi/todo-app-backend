@@ -1,0 +1,22 @@
+{
+  "name": "todoapp-backend",
+  "version": "1.0.0",
+  "description": "todo-app backend APIs",
+  "main": "index.js",
+  "author": "Elvis",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "devstart": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.14"
+  }
+}
