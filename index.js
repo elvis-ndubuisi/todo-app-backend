@@ -12,6 +12,10 @@ server.use(helmet());
 server.use(express.json());
 server.use(express.urlencoded({ extended: true }));
 
+server.get("/", (req, res) => {
+  res.send("hellow");
+});
+
 /* Fetch all tasks. */
 server.get("/tasks", async (req, res) => {
   try {
