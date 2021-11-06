@@ -1,8 +1,8 @@
 const cors = require("cors");
 const helmet = require("helmet");
 const express = require("express");
-require("dotenv").config();
 const { connect, task } = require("./db");
+require("dotenv").config();
 
 const server = express();
 const PORT = process.env.PORT || 3000;
